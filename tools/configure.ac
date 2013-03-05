@@ -137,10 +137,13 @@ AC_OUTPUT(
 	platforms/msp430/pybsl/serial/__init__.py
 	platforms/msp430/pybsl/serial/serialwin32.py
 	platforms/msp430/pybsl/elf.py
-	platforms/msp430/pybsl/tos-bsl
 	platforms/sam3/samba-program.py
 	platforms/sam3/Makefile
 	platforms/intelmote2/openocd/imote2-ocd-program.py
+	platforms/ucmote/Makefile
+	platforms/ucmote/motelist2/Makefile
+	platforms/ucmote/motelist2/motelist2-getdevices-cygwin.py
+	platforms/ucmote/motelist2/motelist2-getdevices-linux.py
 	tinyos/Makefile
 	tinyos/java/Makefile
 	tinyos/java/env/Makefile

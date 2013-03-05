@@ -24,6 +24,6 @@ bin_SCRIPTS = tos-bsl
 tinyoslib_DATA = elf.py
 
 tos-bsl: tos-bsl.in
-	sed -e 's,@tinyoslibdir\@,$(tinyoslibdir),g' tos-bsl.in >$@
+	sed -e 's,@tinyoslibdir\@,$(tinyoslibdir),g' $< | sed -e 's,@pathpython\@,$(pathpython),g' >$@
 
 endif
