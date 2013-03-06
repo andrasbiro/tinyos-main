@@ -1,4 +1,4 @@
 AUTOMAKE_OPTIONS = foreign
 
-SUBDIRS = motelist2
+SUBDIRS = mcp2200gpio motelist2
 

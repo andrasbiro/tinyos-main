@@ -141,6 +141,7 @@ AC_OUTPUT(
 	platforms/sam3/Makefile
 	platforms/intelmote2/openocd/imote2-ocd-program.py
 	platforms/ucmote/Makefile
+	platforms/ucmote/mcp2200gpio/Makefile
 	platforms/ucmote/motelist2/Makefile
 	platforms/ucmote/motelist2/motelist2-getdevices-cygwin.py
 	platforms/ucmote/motelist2/motelist2-getdevices-linux.py
