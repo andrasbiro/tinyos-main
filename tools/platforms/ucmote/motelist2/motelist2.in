@@ -2,7 +2,7 @@
 import getopt
 import sys
 sys.path.append("@tinyoslibdir@")
-from motelist-getdevices import getAllDevices
+from motelist2_getdevices import getAllDevices
 
 classic=False
 parsable=False
